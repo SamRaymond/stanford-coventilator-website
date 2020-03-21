@@ -172,12 +172,13 @@ img::-moz-selection {
 
 header.masthead {
   text-align: center;
-  color: white;
-  background-image: url("../img/header-bg.jpg");
-  background-repeat: no-repeat;
+  background-color: black;
+  color: lightslategray;
+  /* background-image: url("https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/stanford_u-1/standard.png?1548464305"); */
+  /* background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: cover;
+  background-size: cover; */
 }
 
 header.masthead .intro-text {
