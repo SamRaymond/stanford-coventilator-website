@@ -1,26 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Stanford Rapid Response Ventilator</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <!-- Custom styles for this template -->
+  <link href="css/small-business.css" rel="stylesheet">
+
+<link href="https://www-media.stanford.edu/su-identity/css/su-identity.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="https://www-media.stanford.edu/su-identity/css/ie/ie8.css" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="https://www-media.stanford.edu/su-identity/css/ie/ie7.css" />
+<![endif]-->
+<link href="https://www-media.stanford.edu/su-identity/css/su-identity.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="https://www-media.stanford.edu/su-identity/css/ie/ie8.css" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="https://www-media.stanford.edu/su-identity/css/ie/ie7.css" />
+<![endif]-->
+
+<link rel="apple-touch-icon" sizes="57x57" href="//www-media.stanford.edu/assets/favicon/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="60x60" href="//www-media.stanford.edu/assets/favicon/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="//www-media.stanford.edu/assets/favicon/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="//www-media.stanford.edu/assets/favicon/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="//www-media.stanford.edu/assets/favicon/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="//www-media.stanford.edu/assets/favicon/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="//www-media.stanford.edu/assets/favicon/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="//www-media.stanford.edu/assets/favicon/apple-touch-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="//www-media.stanford.edu/assets/favicon/apple-touch-icon-180x180.png" />
+
+<link rel="icon" type="image/png" href="//www-media.stanford.edu/assets/favicon/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="//www-media.stanford.edu/assets/favicon/favicon-192x192.png" sizes="192x192" />
+<link rel="icon" type="image/png" href="//www-media.stanford.edu/assets/favicon/favicon-128.png" sizes="128x128" />
+<link rel="icon" type="image/png" href="//www-media.stanford.edu/assets/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="//www-media.stanford.edu/assets/favicon/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="//www-media.stanford.edu/assets/favicon/favicon-16x16.png" sizes="16x16" />
+
+<link rel="mask-icon" href="//www-media.stanford.edu/assets/favicon/safari-pinned-tab.svg" color="#ffffff">
+<meta name="application-name" content="Stanford University"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="//www-media.stanford.edu/assets/favicon/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="//www-media.stanford.edu/assets/favicon/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="//www-media.stanford.edu/assets/favicon/mstile-150x150.png" />
+<meta name="msapplication-square310x310logo" content="//www-media.stanford.edu/assets/favicon/mstile-310x310.png" />
 </head>
 
-<body style="background-color: black;">
-
-  <div class="jumbotron">
-    <div class="container col-6">
-      <h1> Expected launch: April 1, 2020</h1>
+<body>
+  <div id="su-wrap"> <!-- #su-wrap start -->
+    <div id="su-content"> <!-- #su-content start -->
+<!-- Brandbar snippet start -->
+<div id="brandbar">
+  <div class="container">
+  <a href="http://www.stanford.edu">
+    <img src="https://www-media.stanford.edu/su-identity/images/brandbar-stanford-logo@2x.png" alt="Stanford University" width="152" height="25">
+  </a>
+  </div> <!-- .container end -->
+  </div> <!-- #brandbar end -->
+  <!-- Brandbar snippet end -->
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <div class="container">
+      <a class="navbar-brand" href="#">Covid-19 Rapid Response Ventilator</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">More details coming soon...
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <!-- <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">How You Can Help</a>
+          </li> -->
+        </ul>
+      </div>
     </div>
-    <div class="card text-center col-lg">
-      Donations are welcome and will help us meet this challenge
-    </br>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Heading Row -->
+    <div class="row align-items-center my-5">
+      <div class="col-lg-7">
+        <img class="img-fluid rounded mb-4 mb-lg-0" src="media/prototype_v0.2.jpg" alt="Initial protype of our 'off-the-shelf' design">
+      </div>
+      <!-- /.col-lg-8 -->
+      <div class="col-lg-5">
+        <h1 class="font-weight-light">The Stanford Ventilator</h1>
+        <p style="text-align: justify;">Our team’s goal is to enable the production of 1 million ventilators this Spring. In the United States, there are approximately 150,000 ventilators. Significantly increasing the number of ventilators through traditional manufacturing will likely take several months. A shortage of ventilators has resulted in triage where more elderly patients are not mechanically ventilated and left to die. If the virus spreads rapidly in the United States, we will need millions of patients on mechanical ventilation who will otherwise die. The peak of the disease in the United States will likely come in a number of weeks rather than months so there is an urgent need to ramp up production of ventilators</p>
+       
+      </div>
+      <!-- /.col-md-4 -->
+    </div>
+    <!-- /.row -->
+
+    <!-- Call to Action Well -->
+    <div class="card text-white bg-secondary my-5 py-4 text-center">
+      <div class="card-body">
+        <p class="text-white m-0">If you would like to contribute please follow the link below!</p>
+        <a class="btn btn-warning" href="https://makeagift.stanford.edu/get/page/makeagift?pgnTPC=399&cturl=close&olc=06301" target="_blank">Donate Here</a>
+        <p class="text-white m-0">See below on how to donate to our lab</p>
+        <img class="img-fluid rounded mb-4 mb-lg-0" src="media/donate_details.png" alt="Initial protype of our 'off-the-shelf' design">
+
+      </div>
+    </div>
+
+    <!-- Content Row -->
+    <div class="row mb-5">
+      <!-- <div class="col-md-4 mb-5"> -->
+        <!-- <div class="card h-100">
+          <div class="card-body">
+            <h2 class="card-title">Our Ventilator</h2>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary btn-sm">More Info</a>
+          </div>
+        </div> -->
+      <!-- </div> -->
+      <!-- /.col-md-4 -->
+
+    </div>
+    <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row mb-5">
+          <!-- /.col-md-4 -->
+          <!-- <div class="col-md-8 mb-5"> -->
+            <!-- <div class="card h-100">
+              <div class="card-body">
+                <h2 class="card-title">The Team</h2>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.</p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-primary btn-sm">More Info</a>
+              </div>
+            </div> -->
+          <!-- </div> -->
+          <!-- /.col-md-4 -->
+    
+        </div>
+        <!-- /.row -->
   
-    <img width="50%" src="./donate_details.png"></br>
-    </div>
-      <a href="https://makeagift.stanford.edu/get/page/makeagift?pgnTPC=399&cturl=close&olc=06301" target="_blank" class="btn btn-warning active" role="button" aria-pressed="true">Donate</a>
-      
-    </div>
+            <!-- Content Row -->
+    <!-- <div class="row mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2 class="card-title">How You Can Help</h2>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary btn-sm">More Info</a>
+          </div>
+        </div>
+    </div> -->
+    <!-- /.row -->
   </div>
+  <!-- /.container -->
 
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</div> <!-- #su-content end -->
+</div> <!-- #su-wrap end -->
+
+<!-- Global footer snippet start -->
+<div id="global-footer">
+<div class="container">
+<div class="row">
+  <div id="bottom-logo" >
+    <a href="https://www.stanford.edu">
+      <img src="https://www-media.stanford.edu/su-identity/images/footer-stanford-logo@2x.png" alt="Stanford University" width="105" height="49"/>
+    </a>
+  </div>
+  <!-- #bottom-logo end -->
+  <div id="bottom-text" class="span10">
+    <ul>
+      <li class="home"><a href="https://www.stanford.edu">Stanford Home</a></li>
+      <li class="maps alt"><a href="https://visit.stanford.edu/plan/">Maps & Directions</a></li>
+      <li class="search-stanford"><a href="https://www.stanford.edu/search/">Search Stanford</a></li>
+      <li class="emergency alt"><a href="https://emergency.stanford.edu">Emergency Info</a></li>
+    </ul>
+    <ul id="policy-links">
+      <li><a href="https://www.stanford.edu/site/terms/" title="Terms of use for sites">Terms of Use</a></li>
+      <li><a href="https://www.stanford.edu/site/privacy/" title="Privacy and cookie policy">Privacy</a></li>
+      <li><a href="https://uit.stanford.edu/security/copyright-infringement" title="Report alleged copyright infringement">Copyright</a></li>
+      <li><a href="https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4" title="Ownership and use of Stanford trademarks and images">Trademarks</a></li>
+      <li><a href="http://exploredegrees.stanford.edu/nonacademicregulations/nondiscrimination/" title="Non-discrimination policy">Non-Discrimination</a></li>
+      <li><a href="https://www.stanford.edu/site/accessibility" title="Report web accessibility issues">Accessibility</a></li>
+    </ul>
+  </div> <!-- .bottom-text end -->
+  <div class="clear"></div>
+  <p class="copyright vcard">&copy; <span class="fn org">Stanford University</span>, <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>.
+  </p>
+</div> <!-- .row end -->
+</div> <!-- .container end -->
+</div> <!-- global-footer end -->
+<!-- Global footer snippet end -->
 </body>
 
 </html>

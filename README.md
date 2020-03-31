@@ -1,28 +1,28 @@
-# [Start Bootstrap - Agency](https://startbootstrap.com/template-overviews/agency/)
+# [Start Bootstrap - Small Business](https://startbootstrap.com/template-overviews/small-business/)
 
-[Agency](https://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
+[Small Business](http://startbootstrap.com/template-overviews/small-business/) is a responsive marketing landing page template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
 ## Preview
 
-[![Agency Preview](https://startbootstrap.com/assets/img/screenshots/themes/agency.png)](https://blackrockdigital.github.io/startbootstrap-agency/)
+[![Small Business Preview](https://startbootstrap.com/assets/img/templates/small-business.jpg)](https://blackrockdigital.github.io/startbootstrap-small-business/)
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-agency/)**
+**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-small-business/)**
 
 ## Status
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-agency.svg)](https://www.npmjs.com/package/startbootstrap-agency)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-agency.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-agency)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-agency/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-agency)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-agency/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-agency?type=dev)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-small-business/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-small-business.svg)](https://www.npmjs.com/package/startbootstrap-small-business)
+[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-small-business.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-small-business)
+[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-small-business/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-small-business)
+[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-small-business/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-small-business?type=dev)
 
 ## Download and Installation
 
 To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/agency/)
-* Install via npm: `npm i startbootstrap-agency`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-agency.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-agency)
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/small-business/)
+* Install via npm: `npm i startbootstrap-small-business`
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-small-business.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-small-business)
 
 ## Usage
 
@@ -34,19 +34,11 @@ After downloading, simply edit the HTML and CSS files included with the template
 
 After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
-#### Gulp Tasks
-
-- `gulp` the default task that builds everything
-- `gulp watch` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
-- `gulp js` minifies the themes JS file
-- `gulp vendor` copies dependencies from node_modules to the vendor directory
-
-You must have npm installed globally in order to use this build environment.
+You must have npm and Gulp installed globally on your machine in order to use these features.
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-agency/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/agency/).
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-small-business/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/small-business/).
 
 ## About
 
@@ -65,4 +57,4 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 
 ## Copyright and License
 
-Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-agency/blob/gh-pages/LICENSE) license.
+Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-small-business/blob/gh-pages/LICENSE) license.
